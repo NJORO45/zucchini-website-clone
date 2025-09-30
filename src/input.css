@@ -1,0 +1,16 @@
+@import url("https://fonts.cdnfonts.com/css/zuccony");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lobster&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply font-Josefin;
+    @apply overflow-x-hidden;
+}
+.card-container:hover .dropconainer{
+    @apply top-3 right-5;
+}
